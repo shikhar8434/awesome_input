@@ -1,4 +1,4 @@
-# awesome_input
+# example
 
 A new Flutter project.
 
