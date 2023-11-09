@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:input_form_field/input_form_field.dart';
+import 'package:awesome_input/awesome_input.dart';
 
 void main() {
   runApp(const MyApp());
@@ -31,10 +32,8 @@ class DemoScreen extends StatelessWidget {
           child: Column(
             children: [
               /// Basic
-              InputFormField(
-                textEditingController: _controller,
-                bottomMargin: 10,
-              ),
+              AwesomeInput(
+                  textEditingController: _controller, headerText: "test field"),
 
               /// Custom Top Label
               InputFormField(
